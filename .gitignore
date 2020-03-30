@@ -1,0 +1,7 @@
+.vscode
+node_modules
+.env
+tmp
+src/assets/answer.json
+yarn.lock
+yarn-error.log

@@ -1,0 +1,27 @@
+{
+  "name": "cryptography",
+  "description": "",
+  "author": "Hugo Marcelo <hugomarcelo91@gmail.com>",
+  "version": "0.0.1",
+  "main": "src/server.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/server.js",
+    "dev": "nodemon --inspect src/server.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "form-data": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hugo-marcelo/codenation-julio-cesar.git"
+  }
+}
