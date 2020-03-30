@@ -78,7 +78,4 @@ app.get("/", async function(req, res) {
 
 app.use(cors());
 
-const port = 3333;
-app.listen({ port }, () =>
-  console.info("❤ server this my love online...", `http://localhost:${port}`)
-);
+app.listen(3333);
